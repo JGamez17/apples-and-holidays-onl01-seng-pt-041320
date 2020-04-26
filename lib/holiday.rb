@@ -120,8 +120,6 @@ def all_supplies_in_holidays(holiday_hash)
   
   
 
-
-
 def all_holidays_with_bbq(holiday_hash)
   holiday_hash.collect do |season, holiday|
     holiday.collect do |holiday, item|
